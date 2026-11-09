@@ -31,3 +31,8 @@ let b = a; // the key moves
 println!("{}", a);
 // 1) Every value has one owner
 // 2) Move the key and you cannot drive
+
+
+// Borrowing: Lending the Key
+// & - many look
+// &muy - one drives
