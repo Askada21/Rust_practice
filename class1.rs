@@ -24,3 +24,10 @@ fn total(amount: &[u64]) -> u64 {
 }
 
 fn find(id: u8) -> Option<u64>
+
+// Ownership: The Car Key
+let a = String::from("key");
+let b = a; // the key moves
+println!("{}", a);
+// 1) Every value has one owner
+// 2) Move the key and you cannot drive
